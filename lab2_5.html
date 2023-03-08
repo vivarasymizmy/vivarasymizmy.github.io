@@ -5,18 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Форма</title>
-    <style>
-        div {
-  width: 235px;
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-}
-    </style>
 </head>
 <body>
     <h1>Форма регистрации пользователя</h1>
-    <div>
+ 
     <form action="/serverdata.txt" method="POST">
         <p>
             <label>Email</label>
@@ -84,8 +76,12 @@
                 Китайский
               </label>
           </p>
+          <p>
+            <label>Обо мне</label>
+                <input type="text" placeholder= "Напишите коротко о себе" name="text">
+          </p>
     </form> 
-</div>
+
 </body>
 </html>
 
