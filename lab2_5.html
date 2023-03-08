@@ -7,8 +7,27 @@
     <title>Форма</title>
 </head>
 <body>
-    <form action="#">
-
+    <h1>Форма регистрации пользователя</h1>
+    <form action="/serverdata.txt" method="POST">
+        <p>
+            <label>Email</label>
+            <input type="email" placeholder= "Введите email" name="email">
+          </p>
+          <p>
+            <label>Пароль</label>
+            <input type="password" placeholder= "Введите пароль" name="password">
+          </p>
+          <p>
+            <label>Пол</label>
+            <label>
+              <input type="radio" name="title" value="man">
+              Мужской
+            </label>
+            <label>
+              <input type="radio" name="title" value="woman">
+              Женский
+            </label>
+          </p>
     </form> 
 </body>
 </html>
