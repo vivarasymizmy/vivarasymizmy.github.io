@@ -5,9 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Форма</title>
+    <style>
+        div {
+  width: 235px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+    </style>
 </head>
 <body>
     <h1>Форма регистрации пользователя</h1>
+    <div>
     <form action="/serverdata.txt" method="POST">
         <p>
             <label>Email</label>
@@ -28,7 +37,55 @@
               Женский
             </label>
           </p>
+          <p>
+            <label>Год рождения</label>
+            <select name="year">
+              <option>1995</option>
+              <option>1996</option>
+              <option>1997</option>
+              <option>1998</option>
+              <option>1999</option>
+              <option>2000</option>
+              <option>2001</option>
+              <option>2002</option>
+              <option>2003</option>
+              <option>2004</option>
+              <option>2005</option>
+            </select>
+          </p>
+          <p>
+            <label>
+              <input type="checkbox" name="terms">
+              Русский
+            </label>
+          </p>
+          <p>
+            <label>
+                <input type="checkbox" name="terms">
+                Испанский
+              </label>
+          </p>
+          <p>
+            <label>Я знаю</label>
+            <label>
+                <input type="checkbox" name="terms">
+                Немецкий
+              </label>
+          </p>
+          <p>
+            <label>
+                <input type="checkbox" name="terms">
+                Английский
+              </label>
+          </p>
+          <p>
+            <label>
+                <input type="checkbox" name="terms">
+                Китайский
+              </label>
+          </p>
     </form> 
+</div>
 </body>
 </html>
 
