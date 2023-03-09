@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+    <style>
+    
+    </style>
+</head>
+<body>
+<h1>Форма регистрации пользователя</h1> 
+<p> </p>
+    <form action="mail.php" method="post"> 
+  <table>	
+		<tr>
+			<td> <label>Email</label></td>
+			<td><input type="email" required placeholder= "Введите email" name="email"></td>
+		</tr>
+		<tr>
+			<td><label>Пароль</label></td>
+			<td> <input type="password" required placeholder= "Введите пароль" name="password"></td>
+		</tr>
+		<tr>
+			<td> <label>Пол</label></td>
+			<td> <label>
+              <input type="radio" name="title" value="man">
+              Мужской
+            </label>
+            <label>
+              <input type="radio" name="title" value="woman">
+              Женский
+            </label></td>
+		</tr>
+        <tr>
+        <td> <label>Год рождения</label> </td>
+        <td><select name="year">
+              <option>1995</option>
+              <option>1996</option>
+              <option>1997</option>
+              <option>1998</option>
+              <option>1999</option>
+              <option>2000</option>
+              <option>2001</option>
+              <option>2002</option>
+              <option>2003</option>
+              <option>2004</option>
+              <option>2005</option>
+            </select> </td>
+        </tr>
+        <tr>
+        <td ><label>Я знаю</label></td>
+        <td> <p><label>
+              <input type="checkbox" name="terms" value="ru" checked>
+              Русский
+            </label></p> 
+           <p><label>
+                <input type="checkbox" name="terms" value="es">
+                Испанский
+              </label></p> 
+        <p><label>
+                <input type="checkbox" name="terms" value="ge">
+                Немецкий
+              </label></p> 
+          <p><label>
+                <input type="checkbox" name="terms" value="en">
+                Английский
+              </label> </p>
+       <p> <label>
+                <input type="checkbox" name="terms" value="ch">
+                Китайский
+              </label></p> </td>
+        </tr>
+        <tr>
+        <td> <label>Обо мне</label> </td>
+        <td > <textarea rows="10" cols="45" name="text" placeholder="Напишите что-нибудь о себе"></textarea> </td>
+        </tr>
+        <tr>
+        <td><button type="submit">Готово</button> </td>
+        <td>  <button type="reset">Очистить</button></td>
+        </tr>
+		
+	</table>
+    </form>
+    
+    <p><iframe name="area" width="500" height="200"></iframe></p>
+</body>
+</html>
+
+
