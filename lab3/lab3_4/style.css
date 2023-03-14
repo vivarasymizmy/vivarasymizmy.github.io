@@ -15,6 +15,6 @@ strong{
 }
 em{
     color:chartreuse;
+    padding: 2px;
     border-bottom: double;
-    padding:50px;
 }
