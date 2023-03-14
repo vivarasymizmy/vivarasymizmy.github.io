@@ -3,16 +3,18 @@ body {
     color: ghostwhite;
 }
 h1, h2, h3, h4, h5, h6 {
-    text-align: right;
-    color: crimson;
+    margin: 25px;
+    color:fuchsia;
     font-family:'Roboto',sans-serif;
 }
 p {
-text-align: right;
+margin:15px;
 }
 strong{
     font-family: 'Caveat' sans-serif;
 }
 em{
     color:chartreuse;
+    border-bottom: double;
+    padding:50px;
 }
