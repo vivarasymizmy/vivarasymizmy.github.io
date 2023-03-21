@@ -7,6 +7,18 @@
 			html {
 					background: #f0f0f0;
 			}
+			 details{
+				list-style: url(point.gif);
+			}
+			details > summary{
+				list-style: none;
+			}
+			 summary:before{
+					content: url(plus.gif);
+			}
+			 details[open] summary:before{
+				content: url(minus.gif);
+			}
 			
 			.menu {
 					width: 200px;
