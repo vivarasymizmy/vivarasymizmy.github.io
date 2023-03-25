@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Использование float при построении колонок</title>
-<style type="text/css">
+<style >
 #left{
 	background:#ccf;
     width: 200px;
@@ -18,15 +18,18 @@
 	background:#cfc;
     float: none;
 }
+td{
+vertical-align: top;
+}
 </style>
 </head>
 <body>
     <table>
         <tbody>
             <tr>
-	<td valign="top"><div id="left">left<br>left<br>left<br>left<br>left</div></td>
+	<td><div id="left">left<br>left<br>left<br>left<br>left</div></td>
 	<td><div id="center">center text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</div></td>
-    <td valign="top"><div id="right">right<br>right<br>right<br>right</div></td>
+    <td><div id="right">right<br>right<br>right<br>right</div></td>
 </tr>
 </tbody>
 </table>
