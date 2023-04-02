@@ -4,93 +4,97 @@
 		<meta charset="UTF-8">
 		<title>Оформление вертикального меню</title>
 		<style>
-			html {
-					background: #f0f0f0;
-			}
-			 details{
-				list-style: url(point.gif);
-			}
-			details > summary{
-				list-style: none;
-			}
-			 summary:before{
-					content: url(plus.gif);
-			}
-			 details[open] summary:before{
-				content: url(minus.gif);
+	
+	html {
+				background: #f0f0f0;
 			}
 			
 			.menu {
-					width: 200px;
-					background: #fff;
+				width: 250px;
+				background: #fff;
 			}
 			
 			.menu ul {
 				list-style-type: none;
-			}
-			
-			.menu li {
-				list-style-type: none;
-			}
-			
-			.menu li a {
+            }
 					
+			.menu li a {
+			    text-decoration: underline;
+			    color: #369;
+                
 			}
 			
 			.menu li a:hover {
-					
+                background-color: white;
+			    color: #369;
 			}
 			
 			.menu li ul {
-					
+                padding-bottom: 10px;
+                padding-left: 10px;
 			}
 			
-			.menu li li {
-					
+			.bg-minus::before {
+				content: "";
+    			width: 16px; height: 16px;
+   			 	background: url('Result.png') -5px -5px;
+				float: left;
 			}
+
+			.bg-plus::before {
+				content: "";
+    			width: 16px; height: 16px;
+    			background: url('Result.png') -31px -5px;
+				float: left;
+			}
+
+			.bg-point::before {
+				content: "";
+    			width: 16px; height: 16px;
+   				background: url('Result.png') -5px -31px;
+				float: left;
+			}
+
+	
 	</style>
 </head>
 <body>
 	<nav class="menu">
 		<ul>
 			
-			<li><details><summary><a href="#">Фильмы</a></summary>
+			<li class="bg-minus"><a href="#">Фильмы</a>
 				<ul>
-					<li><a href="#">Экшн</a></li>
-					<li><a href="#">Мелодрамы</a></li>
-					<li><a href="#">Сериалы</a></li>
-					<li><a href="#">Семейные</a></li>
+					<li class="bg-point"><a href="#">Экшн</a></li>
+					<li class="bg-point"><a href="#">Мелодрамы</a></li>
+					<li class="bg-point"><a href="#">Сериалы</a></li>
+					<li class="bg-point"><a href="#">Семейные</a></li>
 				</ul>
-			</details></li>
-		<li><details><summary><a href="#">Музыка</a></summary>
+			</li>
+			<li class="bg-minus"><a href="#">Музыка</a>
 				<ul>
-					<li><a href="#">Классика</a></li>
-					<li><a href="#">Джаз</a></li>
-					<li><a href="#">Рок</a></li>
-					<li><a href="#">Грандж</a></li>
+					<li class="bg-point"><a href="#">Классика</a></li>
+					<li class="bg-point"><a href="#">Джаз</a></li>
+					<li class="bg-point"><a href="#">Рок</a></li>
+					<li class="bg-point"><a href="#">Грандж</a></li>
 				</ul>
-			</details>
 			</li>
 		
-		<li><details>
-			<summary><a href="#">Софт</a></summary>
+			<li class="bg-minus"><a href="#">Софт</a>
 				<ul>
-					<li><a href="#">Графика</a></li>
-					<li><a href="#">3D-моделирование</a></li>
-					<li><a href="#">Машинопись</a></li>
-					<li><a href="#">Переводчики</a></li>
+					<li class="bg-point"><a href="#">Графика</a></li>
+					<li class="bg-point"><a href="#">3D-моделирование</a></li>
+					<li class="bg-point"><a href="#">Машинопись</a></li>
+					<li class="bg-point"><a href="#">Переводчики</a></li>
 				</ul>
-			</details>
 			</li>
 		
-			<li><details>
-				<summary><a href="#">Игры</a></summary>
+			<li class="bg-minus"><a href="#">Софт</a>
 				<ul>
-					<li><a href="#">РПГ</a></li>
-					<li><a href="#">Шутеры</a></li>
-					<li><a href="#">Пасьянсы</a></li>
+					<li class="bg-point"><a href="#">Графика</a></li>
+					<li class="bg-point"><a href="#">3D-моделирование</a></li>
+					<li class="bg-point"><a href="#">Машинопись</a></li>
+					<li class="bg-point"><a href="#">Переводчики</a></li>
 				</ul>
-			</details>
 			</li>
 		
 		</ul>
