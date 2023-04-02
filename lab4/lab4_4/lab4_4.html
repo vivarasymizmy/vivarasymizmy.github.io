@@ -3,21 +3,10 @@
 <head>
 		<meta charset="UTF-8">
 		<title>Оформление вертикального меню</title>
+		<script src="https://kit.fontawesome.com/65bf431d5e.js" crossorigin="anonymous"></script>
 		<style>
 			html {
 					background: #f0f0f0;
-			}
-			 details{
-				list-style: url(point.gif);
-			}
-			details > summary{
-				list-style: none;
-			}
-			 summary:before{
-					content: url(plus.gif);
-			}
-			 details[open] summary:before{
-				content: url(minus.gif);
 			}
 			
 			.menu {
@@ -26,13 +15,26 @@
 			}
 			
 			.menu ul {
-				list-style-type: none;
+				list-style: none;
 			}
 			
 			.menu li {
-				list-style-type: none;
+				list-style: none;
 			}
-			
+			.menu ul li:before{
+				content: "\f146"; 
+				font-family: FontAwesome;
+				width: 16px;
+				color: #1c0968;
+				margin-right: 5px; 
+			}	
+			.menu ul li ul li:before{
+				content: "\f2d3"; 
+				font-family: FontAwesome;
+				width: 16px;
+				color: #3c0bed;
+				margin-right: 5px; 
+			}
 			.menu li a {
 					
 			}
@@ -53,46 +55,37 @@
 <body>
 	<nav class="menu">
 		<ul>
-			
-			<li><details><summary><a href="#">Фильмы</a></summary>
+			<li><a href="#">Фильмы</a>
 				<ul>
 					<li><a href="#">Экшн</a></li>
 					<li><a href="#">Мелодрамы</a></li>
 					<li><a href="#">Сериалы</a></li>
 					<li><a href="#">Семейные</a></li>
 				</ul>
-			</details></li>
-		<li><details><summary><a href="#">Музыка</a></summary>
+			</li>
+			<li><a href="#">Музыка</a>
 				<ul>
 					<li><a href="#">Классика</a></li>
 					<li><a href="#">Джаз</a></li>
 					<li><a href="#">Рок</a></li>
 					<li><a href="#">Грандж</a></li>
 				</ul>
-			</details>
 			</li>
-		
-		<li><details>
-			<summary><a href="#">Софт</a></summary>
+			<li><a href="#">Софт</a>
 				<ul>
 					<li><a href="#">Графика</a></li>
 					<li><a href="#">3D-моделирование</a></li>
 					<li><a href="#">Машинопись</a></li>
 					<li><a href="#">Переводчики</a></li>
 				</ul>
-			</details>
 			</li>
-		
-			<li><details>
-				<summary><a href="#">Игры</a></summary>
+			<li><a href="#">Игры</a>
 				<ul>
 					<li><a href="#">РПГ</a></li>
 					<li><a href="#">Шутеры</a></li>
 					<li><a href="#">Пасьянсы</a></li>
 				</ul>
-			</details>
 			</li>
-		
 		</ul>
 	</nav>
 </body>
