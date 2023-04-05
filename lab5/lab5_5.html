@@ -7,20 +7,25 @@
 #left {
             background: #ccf;
             width: 200px;
+            grid-area: a;
         }
 
         #right {
             background: #fcc;
             width: 200px;
+            grid-area: c;
         }
 
         #center {
             background: #cfc;
-        }
+            grid-area: a;
+        b
 
        .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:"a b c";
+  align-items: start;
 }
 </style>
 </head>
