@@ -3,34 +3,31 @@
 <head>
 <meta charset="utf-8">
 <title>Использование float при построении колонок</title>
-<style >
-#left{
-	background:#ccf;
-    width: 200px;
-    display:grid;
-}
-#right{
-	background:#fcc;
-    width: 200px;
-    display:grid;
-}
-#center{
-	background:#cfc;
-    width: 600px;
-    display:grid;
-}
-.container {
-  display: inline-grid;
-grid-template-columns: auto auto auto;
-}
+<style>
+#left {
+            background: #ccf;
+            width: 200px;
+        }
 
+        #right {
+            background: #fcc;
+            width: 200px;
+        }
 
+        #center {
+            background: #cfc;
+        }
+
+       .container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
 </style>
 </head>
 <body>
-    <div class="container"></div>
+    <div class="container">
 	<div id="left">left<br>left<br>left<br>left<br>left</div>
 	<div id="center">center text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</div>
-    <div id="right">right<br>right<br>right<br>right</div>
+    <div id="right">right<br>right<br>right<br>right</div></div>
 </body>
 </html> 
