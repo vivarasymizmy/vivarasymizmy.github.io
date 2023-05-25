@@ -9,20 +9,17 @@ body {
     list-style: none;
 }
 details{
-    width: 16px; height: 16px;
-    list-style: url(html.png);
+    list-style: url("HTML5.png");
 }
 details > summary{
    
     list-style: none;
 }
  summary:before{
-    width: 16px; height: 16px;
-    content: url(html.png);
+    content: url("HTML5.png");
 }
  details[open] summary:before{
-    width: 16px; height: 16px;
-    content: url(html.png);
+    content: url("HTML5.png");
 }
 
 
