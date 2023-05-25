@@ -1,5 +1,5 @@
 body {
-    background-image(""):
+    background-image: url("fon.jpg");
 }
 details{
 list-style: url(html.png);
