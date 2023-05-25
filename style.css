@@ -1,27 +1,30 @@
 body {
     background-image: url("fon.jpg");
 }
-details{  
-    content: url('html.png') ; 
-}
-details > summary{
-list-style: none;
-}
-summary:before{
-    content: url('html.png') ; 
-}
-
-details[open] summary:before{
-    content: url('html.png') ;
-    
-}
-
 .html ul {
-list-style-type: none;
+    list-style: none;
 }
 
 .html li {
-list-style-type: none;
+    list-style: none;
+}
+.html li{
+    list-style-image: url("html.png");
+    width: 16px; 
+}
+.html li ul li{
+    list-style-image: url("html.png");
+    width: 16px;
+}
+.html li:hover ul {
+display: block;
+}
+.html li ul {
+display: none;
+position: relative;
+width: 150px;
+padding-bottom: 10px;
+padding-left: 10px;
 }
 .html ol li:hover{
     text-decoration: none; /* Убираем подчёркивание */
