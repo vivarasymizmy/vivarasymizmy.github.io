@@ -28,6 +28,9 @@ details > summary{
     content: url(html.png);
     float: left;
 }
+.html li ul li{
+    display: block;
+}
 
 .html  li:hover{
     text-decoration: none; /* Убираем подчёркивание */
