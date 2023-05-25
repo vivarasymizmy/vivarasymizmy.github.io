@@ -12,7 +12,6 @@ body {
 details{
     width: 16px; height: 16px;
     list-style: url(html.png);
-    float: left;
 }
 details > summary{
    
@@ -21,12 +20,10 @@ details > summary{
  summary:before{
     width: 16px; height: 16px;
     content: url(html.png);
-    float: left;
 }
  details[open] summary:before{
     width: 16px; height: 16px;
     content: url(html.png);
-    float: left;
 }
 .html li ul li{
     display: block;
