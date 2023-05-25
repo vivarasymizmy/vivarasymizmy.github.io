@@ -2,7 +2,9 @@ body {
     background-image: url("fon.jpg");
 }
 
-
+.html{
+    width: 250px;
+}
 .html li {
     list-style: none;
 }
