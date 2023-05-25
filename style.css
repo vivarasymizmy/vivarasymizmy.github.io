@@ -7,7 +7,6 @@ body {
 }
 .html li {
     list-style: none;
-    display: block;
 }
 details{
     width: 16px; height: 16px;
@@ -25,9 +24,7 @@ details > summary{
     width: 16px; height: 16px;
     content: url(html.png);
 }
-.html li ul li{
-    display: block;
-}
+
 
 .html  li:hover{
     text-decoration: none; /* Убираем подчёркивание */
