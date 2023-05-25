@@ -6,23 +6,17 @@ body {
 .html li {
     list-style: none;
 }
-.html li{
-    list-style-image: url("html.png");
-    width: 16px; 
+details{
+    list-style: url(html.png);
 }
-.html li ul li{
-    list-style-image: url("html.png");
-    width: 16px;
+details > summary{
+    list-style: none;
 }
-.html li:hover ul {
-display: block;
+ summary:before{
+        content: url(html.png);
 }
-.html li ul {
-display: none;
-position: relative;
-width: 150px;
-padding-bottom: 10px;
-padding-left: 10px;
+ details[open] summary:before{
+    content: url(html.png);
 }
 .html  li:hover{
     text-decoration: none; /* Убираем подчёркивание */
