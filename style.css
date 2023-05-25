@@ -2,27 +2,27 @@ html {
     background: #f0f0f0;
 }
 details{
-list-style: url(point.gif);
+list-style: url(html.png);
 }
 details > summary{
 list-style: none;
 }
 summary:before{
-    content: url(plus.gif);
+    content: url(html.png);
 }
 details[open] summary:before{
-content: url(minus.gif);
+content: url(html.png);
 }
 
-.menu {
+.html {
     width: 200px;
     background: #fff;
 }
 
-.menu ul {
+.html ul {
 list-style-type: none;
 }
 
-.menu li {
+.html li {
 list-style-type: none;
 }
