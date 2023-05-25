@@ -2,24 +2,18 @@ body {
     background-image: url("fon.jpg");
 }
 details{  
-    content: url('html.png') ;
-    
+    content: url('html.png') ; 
 }
 details > summary{
 list-style: none;
 }
 summary:before{
-    content: url('html.png') ;
-    
+    content: url('html.png') ; 
 }
 
 details[open] summary:before{
     content: url('html.png') ;
     
-}
-
-.html {
-    width: 200px;
 }
 
 .html ul {
@@ -29,3 +23,8 @@ list-style-type: none;
 .html li {
 list-style-type: none;
 }
+.html ol li:hover{
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #efe041; /* Цвет ссылки */ 
+    background: #555154; /* Цвет фона */
+   }
