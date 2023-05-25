@@ -1,29 +1,20 @@
 body {
     background-image: url("fon.jpg");
 }
-details{
-    content: "";
-    width: 16px; height: 16px;
-   	background: url('html.png') ;
-	float: left;
+details{  
+    content: url('html.png') ;
     
 }
 details > summary{
 list-style: none;
 }
 summary:before{
-    content: "";
-    width: 16px; height: 16px;
-   	background: url('html.png') ;
-	float: left;
+    content: url('html.png') ;
     
 }
 
 details[open] summary:before{
-    content: "";
-    width: 16px; height: 16px;
-   	background: url('html.png') ;
-	float: left;
+    content: url('html.png') ;
     
 }
 
