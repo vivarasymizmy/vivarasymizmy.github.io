@@ -11,10 +11,6 @@ body {
 details{
     list-style: url("HTML5.png");
 }
-details > summary{
-   
-    list-style: none;
-}
  summary:before{
     content: url("HTML5.png");
 }
