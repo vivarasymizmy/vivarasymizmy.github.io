@@ -26,5 +26,5 @@ details > summary{
 .html  li:hover{
     text-decoration: none; /* Убираем подчёркивание */
     color: #efe041; /* Цвет ссылки */ 
-    background: #555154; /* Цвет фона */
+    /* background: #555154; Цвет фона */
    }
