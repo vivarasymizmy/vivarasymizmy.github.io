@@ -2,19 +2,29 @@ body {
     background-image: url("fon.jpg");
 }
 details{
-list-style: url(html.png);
-width: 16px;
+    content: "";
+    width: 16px; height: 16px;
+   	background: url('html.png') -17px -14px;
+	float: left;
+    
 }
 details > summary{
 list-style: none;
 }
 summary:before{
-    content: url(html.png);
-    width: 16px;
+    content: "";
+    width: 16px; height: 16px;
+   	background: url('html.png') -17px -14px;
+	float: left;
+    
 }
+
 details[open] summary:before{
-content: url(html.png);
-width: 16px;
+    content: "";
+    width: 16px; height: 16px;
+   	background: url('html.png') -17px -14px;
+	float: left;
+    
 }
 
 .html {
