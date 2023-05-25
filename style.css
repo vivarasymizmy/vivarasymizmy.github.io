@@ -4,7 +4,7 @@ body {
 details{
     content: "";
     width: 16px; height: 16px;
-   	background: url('html.png') -17px -14px;
+   	background: url('html.png') ;
 	float: left;
     
 }
@@ -14,7 +14,7 @@ list-style: none;
 summary:before{
     content: "";
     width: 16px; height: 16px;
-   	background: url('html.png') -17px -14px;
+   	background: url('html.png') ;
 	float: left;
     
 }
@@ -22,7 +22,7 @@ summary:before{
 details[open] summary:before{
     content: "";
     width: 16px; height: 16px;
-   	background: url('html.png') -17px -14px;
+   	background: url('html.png') ;
 	float: left;
     
 }
