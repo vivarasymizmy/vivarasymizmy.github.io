@@ -7,15 +7,19 @@ body {
     list-style: none;
 }
 details{
+    width: 16px; height: 16px;
     list-style: url(html.png);
 }
 details > summary{
+   
     list-style: none;
 }
  summary:before{
+    width: 16px; height: 16px;
         content: url(html.png);
 }
  details[open] summary:before{
+    width: 16px; height: 16px;
     content: url(html.png);
 }
 .html  li:hover{
