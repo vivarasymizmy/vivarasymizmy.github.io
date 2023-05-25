@@ -1,9 +1,7 @@
 body {
     background-image: url("fon.jpg");
 }
-.html ul {
-    list-style: none;
-}
+
 
 .html li {
     list-style: none;
@@ -26,7 +24,7 @@ width: 150px;
 padding-bottom: 10px;
 padding-left: 10px;
 }
-.html ol li:hover{
+.html  li:hover{
     text-decoration: none; /* Убираем подчёркивание */
     color: #efe041; /* Цвет ссылки */ 
     background: #555154; /* Цвет фона */
