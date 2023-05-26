@@ -73,7 +73,7 @@ details > summary{
     text-decoration: none;
     font-size:22px;
 }
-js li ul a:hover{
+.js li ul a:hover{
     color:#ebebe5e2;
 }
 .js details{
