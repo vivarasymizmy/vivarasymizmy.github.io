@@ -10,10 +10,10 @@ details > summary{
 }
 .html li{
     list-style: none;
-    color:#55554c9d;
+    color:#727262bd;
 }
-.html li ul{
-    color:#55554c9d;
+.html li ul a{
+    color:#727262bd;
 }
 details{
     list-style: url("HTML5.png");
@@ -25,9 +25,11 @@ details{
     content: url("HTML5.png");
 }
 
-
+.html li ul a:visited{
+    color: #efe041c9; 
+}
 .html  li:hover{
     text-decoration: none;
     color: #efe041;  
-    background: #f3f3a1c0; 
+    background: #70706456; 
 }
