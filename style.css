@@ -28,11 +28,11 @@ details > summary{
     font-size: 22px;
 }
 .html details{
-    list-style: url("HTML5.png");
+    list-style: url("html.gif");
 }
 
 .html summary:before{
-    content: url("HTML5.png");
+    content: url("html.gif");
 }
 .html details[open] summary:before{
     content: url("HTML5.png");
@@ -71,10 +71,10 @@ details > summary{
     font-size:22px;
 }
 .js details{
-    list-style: url("js1.png");
+    list-style: url("js.gif");
 }
 .js  summary:before{
-    content: url("js1.png");
+    content: url("js.gif");
 }
 .js details[open] summary:before{
     content: url("js1.png");
