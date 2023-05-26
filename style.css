@@ -10,6 +10,10 @@ details > summary{
 }
 .html li{
     list-style: none;
+    color:#55554c9d;
+}
+.html li ul{
+    color:#55554c9d;
 }
 details{
     list-style: url("HTML5.png");
@@ -23,7 +27,7 @@ details{
 
 
 .html  li:hover{
-    text-decoration: none; /* Убираем подчёркивание */
-    color: #efe041; /* Цвет ссылки */ 
-    /* background: #555154; Цвет фона */
-   }
+    text-decoration: none;
+    color: #efe041;  
+    background: #f3f3a1c0; 
+}
