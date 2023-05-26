@@ -5,10 +5,7 @@ body {
 .html{
     width: 250px;
 }
-.html li {
-    list-style: none;
-}
-.html ul{
+details > summary{
     list-style: none;
 }
 details{
