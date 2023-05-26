@@ -30,15 +30,8 @@ details > summary{
 .html details{
     list-style: url("HTML5.png");
 }
-<<<<<<< HEAD
-details > summary{
-   
-    list-style: none;
-}
- summary:before{
-=======
+
 .html summary:before{
->>>>>>> 28d14f6884ae4cc61856885f3c8b1c18f554663b
     content: url("HTML5.png");
 }
 .html details[open] summary:before{
