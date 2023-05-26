@@ -9,6 +9,7 @@ body {
 }
 .html{
     width: 250px;
+    float: left;
 }
 details > summary{
     list-style: none;
@@ -17,13 +18,12 @@ details > summary{
     list-style: none;
     color:#727262bd;
     font-size: 1.5em;
-    text-align: left;
+   
 }
 .html li ul a{
     color:#727262bd;
     text-decoration: none;
     font-size: 1em;
-    text-align: left;
 }
 details{
     list-style: url("HTML5.png");
@@ -42,4 +42,45 @@ details{
     text-decoration: none;
     color: #efe041;  
     background: #70706456; 
+}
+.html h1{
+    color: #df3939cb;
+    font-family:sans-serif;
+    text-align: left;
+}
+.js{
+    width: 250px;
+    float: right;
+}
+details > summary{
+    list-style: none;
+}
+.js li{
+    list-style: none;
+    color:#727262bd;
+    font-size: 1.5em;
+   
+}
+.js li ul a{
+    color:#727262bd;
+    text-decoration: none;
+    font-size: 1em;
+}
+details{
+    list-style: url("HTML5.png");
+}
+ summary:before{
+    content: url("HTML5.png");
+}
+ details[open] summary:before{
+    content: url("HTML5.png");
+}
+
+.js li ul a:visited{
+    color: #efe041c9; 
+}
+.js  li:hover{
+    text-decoration: none;
+    color: #efe041;  
+    background: #70706456
 }
