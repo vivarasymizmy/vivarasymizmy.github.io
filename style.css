@@ -8,7 +8,8 @@ body {
     text-align: left;
 }
 .html{
-    width: 250px;
+    height: 100%;
+    width: 50%;
     float: left;
 }
 details > summary{
@@ -49,7 +50,8 @@ details > summary{
     text-align: left;
 }
 .js{
-    width: 250px;
+    height: 100%;
+    width: 50%;
     float: right;
 }
 details > summary{
