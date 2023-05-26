@@ -2,6 +2,9 @@ body {
     background-image: url("fon.jpg");
 }
 
+.h1{
+    color: #e65196d3;
+}
 .html{
     width: 250px;
 }
