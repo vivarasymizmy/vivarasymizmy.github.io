@@ -8,6 +8,9 @@ body {
 details > summary{
     list-style: none;
 }
+.html li{
+    list-style: none;
+}
 details{
     list-style: url("HTML5.png");
 }
