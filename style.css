@@ -5,6 +5,7 @@ body {
 .html h1{
     color: #e21515cb;
     font-family:sans-serif;
+    font-size: 64px;
    
 }
 .html{
@@ -18,13 +19,13 @@ details > summary{
 .html li{
     list-style: none;
     color:#727262bd;
-    font-size: 1.5em;
+    font-size: 32px;
    
 }
 .html li ul a{
     color:#727262bd;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 16px;
 }
 .html details{
     list-style: url("HTML5.png");
@@ -47,6 +48,7 @@ details > summary{
 .js h1{
     color: #e21515cb;
     font-family:sans-serif;
+    font-size: 64px;
 }
 .js{
     height: 100%;
@@ -59,13 +61,13 @@ details > summary{
 .js li{
     list-style: none;
     color:#727262bd;
-    font-size: 1.5em;
+    font-size: 32px;
    
 }
 .js li ul a{
     color:#727262bd;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 16px;
 }
 .js details{
     list-style: url("js1.png");
