@@ -12,7 +12,7 @@ details > summary{
     list-style: none;
     color:#727262bd;
 }
-.html li ul a{
+.html li ul {
     color:#727262bd;
 }
 details{
