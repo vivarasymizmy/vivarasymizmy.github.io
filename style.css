@@ -27,6 +27,9 @@ details > summary{
     text-decoration: none;
     font-size: 22px;
 }
+.html li ul a:hover{
+    color:#ebebe5e2
+}
 .html details{
     list-style: url("html.gif");
 }
@@ -69,6 +72,9 @@ details > summary{
     color:#727262bd;
     text-decoration: none;
     font-size:22px;
+}
+js li ul a:hover{
+    color:#ebebe5e2
 }
 .js details{
     list-style: url("js.gif");
