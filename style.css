@@ -29,7 +29,7 @@ details > summary{
 }
 .html li ul a:hover{
     text-decoration: none;
-    color:#f75c08e2
+    color:#ebebe5e2;
 }
 .html details{
     list-style: url("html.gif");
@@ -76,7 +76,7 @@ details > summary{
 }
 .js li ul a:hover{
     text-decoration: none;
-    color:#f818e9e2;
+    color:#ebebe5e2;
 }
 .js details{
     list-style: url("js.gif");
