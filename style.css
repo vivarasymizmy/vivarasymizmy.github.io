@@ -2,8 +2,9 @@ body {
     background-image: url("fon.jpg");
 }
 
-.h1{
+h1{
     color: #e65196d3;
+    font-family:sans-serif;
 }
 .html{
     width: 250px;
@@ -18,7 +19,7 @@ details > summary{
 }
 .html li ul a{
     color:#727262bd;
-    font-size:15px
+    font-size: 1.17em;
 }
 details{
     list-style: url("HTML5.png");
