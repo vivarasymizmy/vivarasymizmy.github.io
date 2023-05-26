@@ -25,13 +25,13 @@ details > summary{
     text-decoration: none;
     font-size: 1em;
 }
-details{
+.html details{
     list-style: url("HTML5.png");
 }
- summary:before{
+.html summary:before{
     content: url("HTML5.png");
 }
- details[open] summary:before{
+.html details[open] summary:before{
     content: url("HTML5.png");
 }
 
@@ -66,13 +66,13 @@ details > summary{
     text-decoration: none;
     font-size: 1em;
 }
-details{
+.js details{
     list-style: url("js.png");
 }
- summary:before{
+.js  summary:before{
     content: url("js.png");
 }
- details[open] summary:before{
+.js details[open] summary:before{
     content: url("js.png");
 }
 
