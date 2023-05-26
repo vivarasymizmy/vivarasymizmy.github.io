@@ -67,13 +67,13 @@ details > summary{
     font-size: 1em;
 }
 details{
-    list-style: url("HTML5.png");
+    list-style: url("js.png");
 }
  summary:before{
-    content: url("HTML5.png");
+    content: url("js.png");
 }
  details[open] summary:before{
-    content: url("HTML5.png");
+    content: url("js.png");
 }
 
 .js li ul a:visited{
