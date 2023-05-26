@@ -3,9 +3,9 @@ body {
 }
 
 .html h1{
-    color: #df3939cb;
+    color: #e21515cb;
     font-family:sans-serif;
-    text-align: left;
+   
 }
 .html{
     height: 100%;
@@ -45,9 +45,8 @@ details > summary{
     background: #70706456; 
 }
 .js h1{
-    color: #df3939cb;
+    color: #e21515cb;
     font-family:sans-serif;
-    text-align: left;
 }
 .js{
     height: 100%;
@@ -69,13 +68,13 @@ details > summary{
     font-size: 1em;
 }
 .js details{
-    list-style: url("js.png");
+    list-style: url("js1.png");
 }
 .js  summary:before{
-    content: url("js.png");
+    content: url("js1.png");
 }
 .js details[open] summary:before{
-    content: url("js.png");
+    content: url("js1.png");
 }
 
 .js li ul a:visited{
