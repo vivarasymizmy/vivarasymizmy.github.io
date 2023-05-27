@@ -19,7 +19,7 @@ function factorial(n) {
    }  
 }
 
-function fib(n){
+export function fib(n){
    a = BigInt(1); 
    b=BigInt(1); 
    if (n== BigInt(0))
