@@ -59,10 +59,11 @@ export function fibs(n){
         }
         return mas;
 }
-export function arrReverseSorted(arr){
-    arr.sort()
-    arr.reverse()
-  }
+export function  arrReverseSorted(arr){
+    return arr.sort(function (a, b) {
+        return b - a;
+    })
+}
   export function unique(arr){
     return Array.from(new Set(arr));
   }
