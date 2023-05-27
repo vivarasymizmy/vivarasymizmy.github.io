@@ -57,7 +57,7 @@ export function  camelize(str){
 export function fibs(n){  
         let mas=[];
         for(let i=0;i<n; i+=1){
-          mas.push(fib(i+1));
+          mas.push(fib(i));
         }
         return mas;
 }
