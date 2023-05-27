@@ -1,14 +1,6 @@
 
 export function getDecimal(num) {
-    if (Math.trunc(num) == num) {
-        return 0;
-    }
-    else if (num < 0) {
-        return num - (-Math.ceil(-num));
-    }
-    if (num > 1) {
-        return (num - 1).toFixed(2);
-    }
+    return Math.abs(num) % 1;
 }
 
 
