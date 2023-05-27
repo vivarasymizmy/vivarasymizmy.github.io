@@ -1,4 +1,6 @@
-
+import {
+    fib
+} from './lab2.js';
 export function getDecimal(num) {
     if (Math.trunc(num) == num) {
         return 0;

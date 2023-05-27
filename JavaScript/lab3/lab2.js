@@ -1,26 +1,15 @@
-import {
-    fib
-} from './lab2.js';
-function pow(x, n) {
-    return x ** n;
+//функция возвращает x в степени n (n - целое число).
+function pow(x, n)
+{
+    return x**n; //возвращаем х в степени n
 }
+// функция вычисляет сумму чисел от 1 до n включительно.
+function sumTo(n)
+{
+    return (n*(n+1))/2  //формула суммы арифметической прогрессии
 
-function sumTo(n) {
-   let sum = 0;
-   for (let i = 1; i <= n; i++) {
-       sum += i
-   }
-   return sum;
 }
-
-   
-function factorial(n) {   
-   if (n<=1) return 1n;
-   else {
-       res = BigInt (n) * BigInt(factorial(n-1))
-       return res;
-   }  
-}
+//функция возвращает факториал числа n
 function factorial(n)
 {
     if (n<=0)
@@ -46,23 +35,26 @@ export function fib(n) {
         }
         return b;
     }
-
+}
+//функция принимает целочисленное значение x и возвращает 
+//анонимную функцию. Анонимная функция возвращает 
+//результат сравнения значений y и x
 function compare(x)
 {
 return function(y)
 {
-   if (y>x) return true;
-   else if (y<x) return false;
-   else if (y==x) return null;
+    if (y>x) return true;
+    else if (y<x) return false;
+    else if (y==x) return null;
 }
 }
-
+//функция возвращает сумму всех своих аргументов.
 function sum()
 {
-   var result=0; 
-   for (var i=0; i<arguments.length; i++)
-   {
-       result+=arguments[i] 
-   }
-   return result;
+    var result=0; //сумма
+    for (var i=0; i<arguments.length; i++)
+    {
+        result+=arguments[i] //складываем элементы на соответствующих местах
+    }
+    return result;
 }
