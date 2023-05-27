@@ -15,7 +15,7 @@ export function getDecimal(num) {
 
 
 export function ucFirst(str) {
-    if (str == null) {
+    if (!str) {
         return str;
     }
     else {
