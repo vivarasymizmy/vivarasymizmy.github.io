@@ -58,3 +58,10 @@ export function fibs(n){
         }
         return mas;
 }
+export function arrReverseSorted(arr){
+    arr.sort()
+    arr.reverse()
+  }
+  export function unique(arr){
+    return Array.from(new Set(arr));
+  }
