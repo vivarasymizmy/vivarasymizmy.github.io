@@ -19,8 +19,7 @@ export function ucFirst(str) {
         return '';
     }
     else {
-        let NewStr = str[0].toUpperCase() + str.slice(1);
-        return NewStr;
+        return str[0].toUpperCase() + str.slice(1);
     }
 }
 
