@@ -46,7 +46,8 @@ export function truncate(str, maxlength) {
 function camelize(str) {
     let StrNew = str.split('-');
     for (let i = 0; i <= StrNew.lenght; i++) {
-        console.log(ucFirst(StrNew[i]));
+        return StrNew[i][0].toUpperCase() + StrNew[i].slice(1);
+        console.log(StrNew[i]);
     }
     return StrNew.join('');
 }
