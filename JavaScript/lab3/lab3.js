@@ -1,3 +1,5 @@
+import fib from './lab2.js'
+
 export function getDecimal(num) {
     if (Math.trunc(num) == num) {
         return 0;
@@ -48,4 +50,11 @@ export function camelize(str) {
         console.log(StrNew[i]);
     }
     return StrNew.join('');
+}
+export function fibs(n){  
+        let mas=[];
+        for(let i=0;i<n; i+=1){
+          mas.push(fib(i+1));
+        }
+        return mas;
 }
