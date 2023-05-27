@@ -43,13 +43,14 @@ export function truncate(str, maxlength) {
 
 
 
-function camelize(str) {
-    let StrNew = str.split('-');
-    for (let i = 0; i <= StrNew.lenght; i++) {
-         StrNew[i][0].toUpperCase() + StrNew[i].slice(1);
-        console.log(StrNew[i]);
+export function  camelize(str){
+    let STR = str.split("-");
+    let StrNew = "";
+    for (let i = 0; i <= STR.length - 1; i++) {
+        if (i == 0) StrNew = STR[0];
+        else StrNew += ucFirst(STR[i]);
     }
-    return StrNew.join('');
+    return StrNew;
 }
 export function fibs(n){  
         let mas=[];
