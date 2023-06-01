@@ -12,15 +12,14 @@
         "use strict";
 
 let n = prompt("Введите количество строк: ");
-let row1 = "dog  dog dog cat cat dog";
+let row1 = "dog  dog dog cat cat dog ";
 let row2 = "dog dog cat cat dog dog";
 let row3 = "dog cat cat dog dog dog";
-let row4 = "cat cat dog dog dog dog";
-let row5 = "cat dog dog dog dog cat";
-let row6 = "dog dog dog dog cat cat";
+let row4 = "cat cat dog dog dog cat";
+let row5 = "cat dog dog dog cat cat";
 var list = [row1, row2, row3, row4, row5,row6]
 for (let i = 0; i <n; i++) {
- console.log(list[i%6]);
+ console.log(list[i%5]);
 }
     </script>
 </body>
