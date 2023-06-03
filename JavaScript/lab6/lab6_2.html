@@ -49,11 +49,11 @@
 
 		before.addEventListener('click',function(){
 			if(before.classList.contains("title")){
-				// ul.style.display="none";
+			     ul.style.maxHeighy=null;
 				before.classList.remove("title");
 				before.classList.toggle("menuClose");
 			}else{
-				ul.style.display = "block";
+                ul.style.maxHeighy=ul.maxHeighy;
 				before.classList.remove("menuClose");
 				before.classList.toggle("title");
 			}
