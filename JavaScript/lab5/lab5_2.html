@@ -365,17 +365,18 @@
                     console.log(i,t[i]);
                     if(i%tr.length===0 || i%tr.length===tr.length-1)
                         continue;
-                        if((i/tr.length)%2===0){
+                        if(Math.floor(i/tr.length)%2===0){
                      if(i%2===1)
                         t[i].style.backgroundColor = "#ffce9e";
                     else
-                    t[i].style.backgroundColor = "#d18b47";}
-                    else{
-                        if(i%2===0)
+                    t[i].style.backgroundColor = "#d18b47";
+                        }
+                        else{
+                            if(i%2===0)
                         t[i].style.backgroundColor = "#ffce9e";
                     else
                     t[i].style.backgroundColor = "#d18b47";
-                    }
+                        }
                     }
                         
     </script>
