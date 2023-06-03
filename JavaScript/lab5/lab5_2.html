@@ -361,8 +361,8 @@
     <script>
           let tr = document.querySelectorAll("tr");
           let t = document.querySelectorAll("td");
-          console.log(t);
                 for (let i = tr.length; i < t.length-tr.length; i ++){
+                    console.log(i,t[i]);
                     if(i%tr.length===0 || i%tr.length===tr.length-1)
                         continue;
                     else if(i%2===1)
