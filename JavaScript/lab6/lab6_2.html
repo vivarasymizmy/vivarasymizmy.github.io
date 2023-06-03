@@ -33,7 +33,7 @@
 </head>
 <body>
 	<div class="menu open">
-		<span class="title ">Сладости (нажми меня)!</span>
+		<span class="title">Сладости (нажми меня)!</span>
 	 	<ul>
 	    	<li>Торт</li>
 	    	<li>Пончик</li>
@@ -49,11 +49,11 @@
 
 		before.addEventListener('click',function(){
 			if(before.classList.contains("title")){
-			     ul.style.maxHeight=null;
+                ul.style.maxHeigh=null;
 				before.classList.remove("title");
 				before.classList.toggle("menuClose");
 			}else{
-                ul.style.maxHeight=ul.maxHeight;
+                ul.style.maxHeigh=ul.maxHeigh;
 				before.classList.remove("menuClose");
 				before.classList.toggle("title");
 			}
