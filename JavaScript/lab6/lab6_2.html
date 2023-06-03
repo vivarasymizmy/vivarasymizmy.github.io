@@ -32,7 +32,7 @@
 	</style>
 </head>
 <body>
-	<div class="menu open">
+	<div id = "flex"class="menu open">
 		<span class="title">Сладости (нажми меня)!</span>
 	 	<ul>
 	    	<li>Торт</li>
@@ -43,21 +43,12 @@
 <script>
 		'use strict';
 
-		let before = document.querySelector(('.title'),':before');
-
-		let ul = document.querySelector('.menu open');
-
-		before.addEventListener('click',function(){
-			if(before.classList.contains("title")){
-                ul.style.maxHeigh=null;
-				before.classList.remove("title");
-				before.classList.toggle("menuClose");
-			}else{
-                ul.style.maxHeigh=ul.maxHeigh;
-				before.classList.remove("menuClose");
-				before.classList.toggle("title");
-			}
-		},false);
+        let menu = document.getElementById('flex');
+        let elem = menu.querySelector('.title');
+        elem.onclick = function() {
+          menu.classList.toggle('open');
+        };
+        
 
 	</script>
 </body>
