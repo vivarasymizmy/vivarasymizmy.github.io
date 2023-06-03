@@ -32,7 +32,7 @@
 	</style>
 </head>
 <body>
-	<div class="menuOpen">
+	<div class="menu open">
 		<span class="title ">Сладости (нажми меня)!</span>
 	 	<ul>
 	    	<li>Торт</li>
@@ -42,9 +42,10 @@
 	</div>
 <script>
 		'use strict';
+
 		let before = document.querySelector(('.title'),':before');
 
-		let ul = document.querySelector('.menuOpen ul');
+		let ul = document.querySelector('.menu open ul');
 
 		before.addEventListener('click',function(){
 			if(before.classList.contains("title")){
