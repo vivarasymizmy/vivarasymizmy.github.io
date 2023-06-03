@@ -362,7 +362,7 @@
           let tr = document.querySelectorAll("tr");
           let t = document.querySelectorAll("td");
                 for (let i = tr.length; i < t.length-tr.length; i ++){
-                    if(i%tr.length===0 || i%tr.length===1)
+                    if(i%tr.length===0 || i%tr.length===tr.length-1)
                         continue;
                     else if(i%2===0)
                         t[i].style.backgroundColor = "#ffce9e";
