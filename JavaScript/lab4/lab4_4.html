@@ -19,15 +19,16 @@
     }
     function removeClass(obj, cls) {
         let sub=""
-		sub = " " + obj.className + " ";
+        if (typeof sub !== 'undefined') {
+            sub = " " + obj.className + " ";
 		sub = sub.replace(" " + cls + " ", " ");
 		obj.className = sub.trim(" ");
-		}
+}	
+	}
 
     addClass(obj, 'new');
     addClass(obj, 'open');
     addClass(obj, 'me');
-
     alert(obj.className);
     removeClass(obj.me);
     alert(obj.className);
