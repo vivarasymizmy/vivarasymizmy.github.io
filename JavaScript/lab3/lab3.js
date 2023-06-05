@@ -50,9 +50,9 @@ export function  camelize(str){
     let strnew = "";
     for (let i = 0; i <= str_copy.length - 1; i++) {
         if (i == 0) strnew = str_copy[0];
-        else strnew += ucFirst(STR[i]);
+        else strnew += ucFirst(str_copy[i]);
     }
-    return StrNew;
+    return strnew;
 }
 export function fibs(n){  
         let mas=[];
