@@ -38,7 +38,7 @@
 				event.preventDefault();
 				let textarea = document.querySelector("textarea");
 				let div = document.createElement("div");
-				if (text){
+				if (textarea){
 					div.innerHTML = text;
 				textarea.parentNode.replaceChild(div, textarea);}
 			}
