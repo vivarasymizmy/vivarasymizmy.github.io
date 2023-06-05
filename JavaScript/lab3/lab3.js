@@ -28,8 +28,8 @@ export function ucFirst(str) {
 
 
 export function checkSpam(str) {
-    let NewStr = str.toLowerCase();
-    return NewStr.includes('viagra') || NewStr.includes('xxx');
+    let newstr = str.toLowerCase();
+    return newstr.includes('viagra') || newstr.includes('xxx');
 }
 
 
@@ -46,11 +46,11 @@ export function truncate(str, maxlength) {
 
 
 export function  camelize(str){
-    let STR = str.split("-");
-    let StrNew = "";
-    for (let i = 0; i <= STR.length - 1; i++) {
-        if (i == 0) StrNew = STR[0];
-        else StrNew += ucFirst(STR[i]);
+    let str_copy = str.split("-");
+    let strnew = "";
+    for (let i = 0; i <= str_copy.length - 1; i++) {
+        if (i == 0) strnew = str_copy[0];
+        else strnew += ucFirst(STR[i]);
     }
     return StrNew;
 }
@@ -62,7 +62,8 @@ export function fibs(n){
         return mas;
 }
 export function  arrReverseSorted(arr){
-    return arr.sort(function (a, b) {
+    let arr_copy=arr;
+    return arr_copy.sort(function (a, b) {
         return b - a;
     })
 }
