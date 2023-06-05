@@ -16,6 +16,7 @@
                 arr.push(cls)
             }
             this.className = arr.join(" ");
+            return this;
         }
         obj.removeClass = function removeClass(cls) {
             let arr = this.className.split(" ");
@@ -26,6 +27,7 @@
                 }
             }
             obj.className = arr.join(' ');
+            return this;
         }
 
         obj.addClass('new');
