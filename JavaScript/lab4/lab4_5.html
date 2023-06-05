@@ -5,19 +5,20 @@
   <script>
     'use strict';
     function sortByAge(arr) {
-  arr.sort((a, b) => a.age > b.age ? 1 : -1);
-}
-let misha = { name: "Миша", age: 20 };
-let arther = { name: "Артур", age: 19 };
-let yuri = { name: "Юрий", age: 44 };
-let people = [ misha , arther , yuri ];
-alert(people[0].name); 
-alert(people[1].name); 
-alert(people[2].name); 
-sortByAge(people);
-alert(people[0].name); 
-alert(people[1].name); 
-alert(people[2].name); 
-</script>
+      arr.sort((a, b) => a.age > b.age ? 1 : -1);
+    }
+    let misha = { name: "Миша", age: 20 };
+    let arther = { name: "Артур", age: 19 };
+    let yuri = { name: "Юрий", age: 44 };
+    let people = [misha, arther, yuri];
+    alert(people[0].name);
+    alert(people[1].name);
+    alert(people[2].name);
+    sortByAge(people);
+    alert(people[0].name);
+    alert(people[1].name);
+    alert(people[2].name); 
+  </script>
 </body>
-</html> 
+
+</html>
