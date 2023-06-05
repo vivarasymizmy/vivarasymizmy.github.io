@@ -18,13 +18,11 @@
         obj.className = arr.join(" ");        
     }
     function removeClass(obj, cls) {
-        let sub=""
-        if (typeof sub !== 'undefined') {
-            sub = " " + obj.className + " ";
+        let sub="1"
+		 sub = " " + obj.className + " ";
 		sub = sub.replace(" " + cls + " ", " ");
 		obj.className = sub.trim(" ");
-}	
-	}
+		}
 
     addClass(obj, 'new');
     addClass(obj, 'open');
