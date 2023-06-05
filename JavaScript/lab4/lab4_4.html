@@ -18,9 +18,10 @@
         obj.className = arr.join(" ");        
     }
     function removeClass(obj, cls) {
-			let sub = " " + obj.className + " ";
-			sub = sub.replace(" " + cls + " ", " ");
-			obj.className = sub.trim(" ");
+        let sub=""
+		sub = " " + obj.className + " ";
+		sub = sub.replace(" " + cls + " ", " ");
+		obj.className = sub.trim(" ");
 		}
 
     addClass(obj, 'new');
