@@ -10,15 +10,18 @@
 	<div id="text">Текст</div>
 
 	<script>
-  'use strict';
-		let but = document.getElementById("hider");
-		but.addEventListener('click',function(){
-			let but = document.getElementById("text");
-			if(but.style.display != "none")
-				but.style.display = "none";
-			else
-				but.style.display = "block";
-		},false);
+ 'use strict'
+let b = document.getElementById("hider")
+b.addEventListener('click', function() {
+	let t = document.getElementById("text")
+	if (t.style.display != "none") {
+		t.style.display = "none"
+		b.value = "Показать текст"
+	} else {
+		t.style.display = "block"
+		b.value = "Нажмите, чтобы спрятать текст"
+	}     
+}, false)
 	</script>
 </body>
 </html>
