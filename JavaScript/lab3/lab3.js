@@ -95,7 +95,7 @@ export function fibs(n) {
  * @returns  массив из тех же элементов, но отсортированный по убыванию
  */
 export function arrReverseSorted(arr) {
-    let arr_copy = arr;
+    let arr_copy = arr.slice();
     return arr_copy.sort(function (a, b) {
         return b - a;
     })
