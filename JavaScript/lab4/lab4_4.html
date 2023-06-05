@@ -10,35 +10,35 @@
 
 
 
-obj.addClass = function addClass(cls) {
-    let arr = this.className.split(" ");
-    if (!arr.includes(cls)) {
-        arr.push(cls)
-    }
-    this.className = arr.join(" ");
-}
-obj.removeClass = function removeClass(cls) {
-    let arr = this.className.split(" ");
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] === cls) {
-            arr.splice(i, 1);
-            i--;
+        obj.addClass = function addClass(cls) {
+            let arr = this.className.split(" ");
+            if (!arr.includes(cls)) {
+                arr.push(cls)
+            }
+            this.className = arr.join(" ");
         }
-    }
-    obj.className = arr.join(' ');
-}
+        obj.removeClass = function removeClass(cls) {
+            let arr = this.className.split(" ");
+            for (let i = 0; i < arr.length; i++) {
+                if (arr[i] === cls) {
+                    arr.splice(i, 1);
+                    i--;
+                }
+            }
+            obj.className = arr.join(' ');
+        }
 
-obj.addClass('new'); 
-obj.addClass('hello world'); 
-obj.addClass('open');  
+        obj.addClass('new');
+        obj.addClass('hello world');
+        obj.addClass('open');
 
-console.log(obj.className);
+        console.log(obj.className);
 
 
-obj.removeClass('Js'); 
-obj.removeClass('new'); 
-obj.removeClass('open'); 
-console.log(obj.className);
+        obj.removeClass('Js');
+        obj.removeClass('new');
+        obj.removeClass('open');
+        console.log(obj.className);
         addClass(obj, 'new');
         addClass(obj, 'open');
         addClass(obj, 'me');
